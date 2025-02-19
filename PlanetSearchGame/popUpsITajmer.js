@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(myInterval);
             popUp3.classList.add('active');
             overlay.classList.add('active');
-            nemaVreme.innerHTML += `There is no more time, but good job because you managed to find ${BrojPlaneti} exoplanets, ${starsNumber} stars and ${bananaNumber} space bananas in just 5 minutes. If you would like to learn more about the exoplanets you should check out the <a href="#" class="nemaVremeINajdeniSiteLinkovi">Exoplanets book </a> or our <a href="#" class="nemaVremeINajdeniSiteLinkovi">Fun facts about exoplanets sticky notes.</a>`;
+            nemaVreme.innerHTML += `There is no more time, but good job because you managed to find ${BrojPlaneti} exoplanets, ${starsNumber} stars and ${bananaNumber} space bananas in just 5 minutes. If you would like to learn more about the exoplanets you should check out the <a href=" ../kniga.html" class="nemaVremeINajdeniSiteLinkovi">Exoplanets book </a> or our <a href="../FunFacts/funFacts.html" class="nemaVremeINajdeniSiteLinkovi">Fun facts about exoplanets sticky notes.</a>`;
         }
     }
 
